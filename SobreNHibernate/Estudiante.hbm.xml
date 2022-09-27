@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="SobreNHibernate"
+    namespace="SobreNHibernate">
+
+  <class name="Estudiante" table="estudiante">
+    <id name="ci">
+      
+    </id>
+    
+    <property name="nombre"/>
+    <property name="apellido"/>
+    <property name="fecha_nac"/>
+    <property name="email"/>
+    <property name="direccion"/>
+  </class>
+
+</hibernate-mapping>
